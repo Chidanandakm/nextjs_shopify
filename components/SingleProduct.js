@@ -4,8 +4,7 @@ import Image from 'next/image';
 import React from 'react'
 import { storeApi } from '../utils/storeApi'
 import { useCart } from '../lib/cartState';
-import { increaseQuantityMutation } from './Cart';
-import { createCartMutation, updateCartMutation } from '../src/mutation';
+import { createCartMutation, updateCartMutation, increaseQuantityMutation } from '../src/mutation';
 
 
 
